@@ -7,7 +7,7 @@ import { SITE_NAME, SITE_URL, SITE_DOMAIN } from '@/lib/constentsts';
 
 const meta = {
 	title: `${SITE_NAME} - Transforming Interiors with Innovation`,
-	des: '',
+	des: 'Discover easy and stylish wall panels to make your home or office look great.',
 	link: SITE_URL + '/',
 };
 
