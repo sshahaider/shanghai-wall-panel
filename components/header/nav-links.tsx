@@ -14,6 +14,7 @@ export type NavItem = {
 export const links: NavItem[] = [
 	{ title: 'About Us', href: '/#about' },
 	{ title: "CEO's Message", href: '/#ceo-message' },
+	{ title: 'Product Categories', href: '/#product-categories' },
 	{ title: 'Privacy Policy', href: '/policy' },
 	{
 		title: 'Contact Us',

@@ -33,12 +33,12 @@ export default function AboutSection() {
 				<AnimatedContainer>
 					<div className="mb-6 flex items-center space-x-2">
 						<div className="bg-primary h-1 w-8 rounded" />
-						<span className="text-primary font-medium tracking-wider uppercase">About Us</span>
+						<h2 className="text-primary font-medium tracking-wider uppercase">About Us</h2>
 					</div>
 
-					<h2 className="mb-6 text-3xl font-bold md:text-4xl">
+					<p className="mb-6 text-3xl font-bold md:text-4xl">
 						Revolutionizing Interior Design <span className="text-primary">Since 2005</span>
-					</h2>
+					</p>
 
 					<p className="text-muted-foreground mb-8 text-base">
 						<b>{SITE_NAME}</b> is a leading manufacturer specializing in PVC Wall Panels, with a robust product
@@ -53,8 +53,8 @@ export default function AboutSection() {
 						<div key={index} className="flex space-x-4">
 							<div className="mt-1 flex-shrink-0">{item.icon}</div>
 							<div>
-								<h3 className="mb-1 font-semibold">{item.title}</h3>
-								<p className="text-muted-foreground text-sm">{item.description}</p>
+								<p className="mb-1 font-semibold">{item.title}</p>
+								<span className="text-muted-foreground text-sm">{item.description}</span>
 							</div>
 						</div>
 					))}

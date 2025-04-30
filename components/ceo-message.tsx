@@ -11,7 +11,7 @@ export default function CeoMessageSection() {
 			<div className="mb-12 flex items-center justify-center space-x-4">
 				<div className="mb-4 flex items-center justify-center space-x-2">
 					<div className="bg-primary h-1 w-8 rounded" />
-					<span className="text-primary font-medium tracking-wider uppercase">CEO&apos;s Message</span>
+					<h2 className="text-primary font-medium tracking-wider uppercase">CEO&apos;s Message</h2>
 					<div className="bg-primary h-1 w-8 rounded" />
 				</div>
 			</div>
@@ -21,14 +21,15 @@ export default function CeoMessageSection() {
 				{/* CEO Image */}
 				<AnimatedContainer className={cn('transition-all duration-1000 lg:col-span-4')}>
 					<div className="relative w-fit">
-						<div className="border-prtext-primary absolute -inset-4 rotate-3 transform rounded-lg border-2" />
-						<div className="relative overflow-hidden rounded-lg border-8">
+						<div className="border-primary/50 absolute -inset-4 rotate-3 transform rounded-lg border-2 border-dashed" />
+						<div className="relative overflow-hidden rounded-xl border-8">
 							<Image
-								src="https://placehold.co/300x400.webp"
+								src="/ceo.webp"
 								alt="Ameer Hamza - CEO"
 								width={300}
 								height={400}
 								className="object-cover"
+								unoptimized
 							/>
 						</div>
 					</div>

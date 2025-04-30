@@ -54,7 +54,7 @@ export default function ContactSection() {
 
 				<div className="grid grid-cols-1 items-start gap-6 md:gap-12 lg:grid-cols-2">
 					{/* Contact Information */}
-					<AnimatedContainer className={cn('rounded-lg border p-8')}>
+					<AnimatedContainer className={cn('bg-card rounded-lg border p-8 shadow')}>
 						<h3 className="mb-8 text-2xl font-bold">Contact Information</h3>
 						<div className="space-y-6">
 							{list.map((item, index) => (
@@ -63,7 +63,7 @@ export default function ContactSection() {
 										<item.icon className="text-primary size-6" />
 									</div>
 									<div className="-space-y-1">
-										<h4 className="font-semibold">{item.title}</h4>
+										<p className="font-semibold">{item.title}</p>
 										{item.href ? (
 											<a
 												href={item.href}
@@ -83,7 +83,7 @@ export default function ContactSection() {
 					</AnimatedContainer>
 					{/* Map or Additional Information */}
 					<AnimatedContainer delay={0.4} className="bg-muted mt-12 rounded-lg p-4">
-						<h4 className="mb-4 font-semibold">Why Choose Shanghai Wall Panel?</h4>
+						<h3 className="mb-4 font-semibold">Why Choose Shanghai Wall Panel?</h3>
 						<ul className="text-muted-foreground space-y-2">
 							<li className="flex items-start">
 								<span className="text-prbg-primary mr-2">✓</span>

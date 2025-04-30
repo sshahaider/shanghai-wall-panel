@@ -7,8 +7,8 @@ export default function Footer() {
 	const year = date.getFullYear();
 
 	return (
-		<div className="w-full">
-			<div className="container flex w-full items-center justify-center gap-y-4 border-t px-4 py-3 text-xs">
+		<div className="w-full border-t">
+			<div className="container flex w-full items-center justify-center gap-y-4 px-4 py-3 text-xs">
 				<div className="text-center opacity-80">
 					©{' '}
 					<Link href="/" className="hover:text-primary">
